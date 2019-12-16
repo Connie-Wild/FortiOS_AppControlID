@@ -18,7 +18,7 @@ datas = []
 url_base = "https://fortiguard.com/appcontrol?deepapp=&page="
 
 while pages + 1 > i:
-    print("page:" ,i ,"/" ,pages)
+    print("page:", i, "/", pages)
     url = url_base + str(i)
     try:
         get_url_info = s.get(url)
@@ -42,7 +42,7 @@ while pages + 1 > i:
             break
     i += 1
 
-print("result:" ,len(datas) ,"/" ,appids)
+print("result:", len(datas), "/", appids)
 
 with open('appid.csv', 'w') as file:
     writer = csv.writer(file, lineterminator='\n')
