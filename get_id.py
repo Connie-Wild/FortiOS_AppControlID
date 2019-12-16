@@ -46,4 +46,4 @@ print('result:', len(datas), '/', appids)
 
 with open('appid.csv', 'w') as file:
     writer = csv.writer(file, lineterminator='\n')
-    writer.writerows(datas)
+    writer.writerows(sorted(datas))
