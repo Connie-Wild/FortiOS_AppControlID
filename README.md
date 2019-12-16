@@ -8,4 +8,3 @@ cd FortiOS_AppControlID
 pip install -U -r requirements.txt
 python get_id.py
 ```
-`pages = 281` Please change to any number of pages.
