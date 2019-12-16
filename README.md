@@ -1,5 +1,5 @@
 # FortiOS Application Control ID list generator
-Generate Application Control ID list from fortiguard.com.
+Generate Application Control ID list from [fortiguard.com](https://fortiguard.com/appcontrol).
 
 ## HOW TO USE
 python3.6.x
