@@ -1,0 +1,8 @@
+# directory
+__pycache__
+
+# user data
+*.csv
+
+# sample data
+!appid_sample.csv
