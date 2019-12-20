@@ -11,7 +11,8 @@ get_url_info = s.get(url)
 bs4Obj = BeautifulSoup(get_url_info.text, 'lxml')
 result = bs4Obj.find('div', class_='sidebar-content')
 appids = int(re.findall('[0-9]+', result.find('a').get_text().replace(',', ''))[0])
-pages = int(appids / 15) + 1
+perPage = int(len(bs4Obj.find_all('div', class_='title')))
+pages = int(appids / perPage) + 1
 
 i = 1
 datas = []
