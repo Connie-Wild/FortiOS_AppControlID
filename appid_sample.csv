@@ -2696,7 +2696,7 @@
 43351,Twitter_Message
 43355,Yahoo.Accounts
 43356,Citrix.CDN
-43400,Trick.Botnet
+43400,Trojan.TrickBot
 43401,Loki.Botnet
 43424,Extenbro.Botnet
 43425,CNN
@@ -4087,3 +4087,7 @@
 48608,Trojan.Metamorfo
 48692,Disney+
 48741,CryptoMiner.Botnet
+48788,HP.Printer
+48798,Autodesk.BIM360
+48800,Toutiao
+48801,Workplace_File.Download
