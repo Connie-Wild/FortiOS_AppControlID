@@ -77,7 +77,6 @@
 15962,Comcast.Webmail
 15963,ooVoo
 15969,QQ_Mail
-15970,Cox.Webmail
 15973,Ustream
 15985,TeamSpeak
 15997,XM.Radio
@@ -1184,7 +1183,7 @@
 32117,Flame.Botnet
 32121,Google.Drive
 32122,Google.Drive_File.Upload
-32123,Google.Drive_Edit
+32123,Google.Docs_Edit
 32149,Wordfeud
 32165,Airport.Utility.mDNS
 32171,Tapatalk
@@ -1375,7 +1374,7 @@
 35027,Dorkbot.Botnet
 35031,Yandex.Browser.Turbo
 35033,PCoIP
-35047,VidyoDesktop
+35047,Vidyo
 35141,Vine
 35150,Ann.Botnet
 35151,Apple.Maps
@@ -1414,7 +1413,7 @@
 35433,WeTransfer_File.Upload
 35434,Google.Drive_File.Download
 35444,Netflix_Search
-35459,Chrome.Bookmark.Sync
+35459,Chrome.Sync
 35496,Pandora.Botnet
 35503,Pcrat
 35504,Travnet.Botnet
@@ -4321,3 +4320,17 @@
 49224,TriStation_Execution.Command.Point.Cannot.Be.Disabled
 49225,TriStation_Execution.Command.Too.Many.Retentive.Variables
 49226,TriStation_Execution.Command.Loader.Connect
+49227,Emerson.DeltaV.Protocol
+49255,TriStation_CP.Status.KeyState.Stop.RunState.Running
+49256,TriStation_CP.Status.KeyState.Stop.RunState.Stop
+49257,TriStation_CP.Status.KeyState.Stop.RunState.Pause
+49258,TriStation_CP.Status.KeyState.Program.RunState.Running
+49259,TriStation_CP.Status.KeyState.Program.RunState.Stop
+49260,TriStation_CP.Status.KeyState.Program.RunState.Pause
+49261,TriStation_CP.Status.KeyState.Run.RunState.Running
+49262,TriStation_CP.Status.KeyState.Run.RunState.Stop
+49263,TriStation_CP.Status.KeyState.Run.RunState.Pause
+49264,TriStation_CP.Status.KeyState.Remote.RunState.Running
+49265,TriStation_CP.Status.KeyState.Remote.RunState.Stop
+49266,TriStation_CP.Status.KeyState.Remote.RunState.Pause
+49282,YouTube_Category.Control
