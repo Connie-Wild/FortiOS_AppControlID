@@ -1480,6 +1480,7 @@
 35944,Amazon.AWS_S3
 35950,Nope.Botnet
 35961,RMCP
+35962,Weiyun
 35963,360.Yunpan
 35966,360.Yunpan_File.Upload
 35967,360.Yunpan_File.Download
@@ -2139,7 +2140,7 @@
 40766,Betternet.VPN
 40768,FlashVPN
 40773,Inflabot.Botnet
-40776,SAP.Diagnostic
+40776,SAP.Diag
 40791,SAP.Message.Server
 40793,VPN.Master
 40797,HyDDoS.Botnet
@@ -4086,7 +4087,6 @@
 48568,Matrix.VPN
 48608,Trojan.Metamorfo
 48692,Disney+
-48741,CryptoMiner.Botnet
 48788,HP.Printer
 48798,Autodesk.BIM360
 48800,Toutiao
@@ -4334,3 +4334,10 @@
 49265,TriStation_CP.Status.KeyState.Remote.RunState.Stop
 49266,TriStation_CP.Status.KeyState.Remote.RunState.Pause
 49282,YouTube_Category.Control
+49332,IEC.60870.5.104_Information.Transfer.In.Validation
+49333,IEC.60870.5.104_Information.Transfer.Out.Validation
+49384,Google.Chat
+49387,WeChat.Work
+49405,Xfinity.Stream
+49448,OSISoft.PI.System
+49459,Parallels.Access

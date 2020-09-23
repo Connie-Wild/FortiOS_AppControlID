@@ -7,11 +7,21 @@ from bs4 import BeautifulSoup
 s = requests.Session()
 
 url = 'https://fortiguard.com/appcontrol'
-get_url_info = s.get(url)
-bs4Obj = BeautifulSoup(get_url_info.text, 'lxml')
-result = bs4Obj.find('div', class_='sidebar-content')
-appids = int(re.findall('[0-9]+', result.find('a').get_text().replace(',', ''))[0])
-perPage = int(len(bs4Obj.find_all('div', class_='title')))
+
+while True:
+    try:
+        get_url_info = s.get(url, timeout=5)
+        get_url_info.raise_for_status()
+        bs4Obj = BeautifulSoup(get_url_info.text, 'lxml')
+        result = bs4Obj.find('div', class_='sidebar-content')
+        appids = int(re.findall('[0-9]+', result.find('a').get_text().replace(',', ''))[0])
+        perPage = int(len(bs4Obj.find_all('div', class_='title')))
+        break
+    except Exception as e:
+        print(e)
+        time.sleep(1)
+        continue
+
 if appids % perPage == 0:
     pages = int(appids // perPage)
 else:
@@ -25,7 +35,8 @@ while pages + 1 > i:
     print('page:', i, '/', pages)
     url = url_base + str(i)
     try:
-        get_url_info = s.get(url)
+        get_url_info = s.get(url, timeout=5)
+        get_url_info.raise_for_status()
         bs4Obj = BeautifulSoup(get_url_info.text, 'lxml')
         app_list = bs4Obj.find_all('div', class_='title')
         if len(app_list) == 0:
