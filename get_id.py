@@ -8,11 +8,14 @@ s = requests.Session()
 
 url = 'https://fortiguard.com/appcontrol'
 
+user_agent = 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36'
+headers = {'User-Agent': user_agent, 'Accept':'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7'}
+
 while True:
     try:
-        get_url_info = s.get(url, timeout=5)
+        get_url_info = s.get(url, headers=headers, timeout=5)
         get_url_info.raise_for_status()
-        bs4Obj = BeautifulSoup(get_url_info.text, 'lxml')
+        bs4Obj = BeautifulSoup(get_url_info.content, 'lxml')
         result = bs4Obj.find('div', class_='sidebar-content')
         appids = int(re.findall('[0-9]+', result.find('a').get_text().replace(',', ''))[0])
         perPage = int(len(bs4Obj.find_all('div', class_='title')))
@@ -35,9 +38,9 @@ while pages + 1 > i:
     print('page:', i, '/', pages)
     url = url_base + str(i)
     try:
-        get_url_info = s.get(url, timeout=5)
+        get_url_info = s.get(url, headers=headers, timeout=5)
         get_url_info.raise_for_status()
-        bs4Obj = BeautifulSoup(get_url_info.text, 'lxml')
+        bs4Obj = BeautifulSoup(get_url_info.content, 'lxml')
         app_list = bs4Obj.find_all('div', class_='title')
         if len(app_list) == 0:
             continue
