@@ -42,8 +42,11 @@ while pages + 1 > i:
         get_url_info.raise_for_status()
         bs4Obj = BeautifulSoup(get_url_info.content, 'lxml')
         app_list = bs4Obj.find_all('div', class_='title')
-        if len(app_list) == 0:
-            continue
+        if len(app_list) != perPage:
+            if i == pages:
+                pass
+            else:
+                continue
     except Exception as e:
         print(e)
         time.sleep(1)
