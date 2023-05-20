@@ -38,6 +38,7 @@ while pages + 1 > i:
     print('page:', i, '/', pages)
     url = url_base + str(i)
     try:
+        time.sleep(1)
         get_url_info = s.get(url, headers=headers, timeout=5)
         get_url_info.raise_for_status()
         bs4Obj = BeautifulSoup(get_url_info.content, 'lxml')
@@ -49,7 +50,6 @@ while pages + 1 > i:
                 continue
     except Exception as e:
         print(e)
-        time.sleep(1)
         continue
     j = 0
     while True:
