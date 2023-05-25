@@ -6,7 +6,7 @@ from bs4 import BeautifulSoup
 
 s = requests.Session()
 
-url = 'https://fortiguard.com/appcontrol'
+url = 'https://www.fortiguard.com/appcontrol'
 
 user_agent = 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36'
 headers = {'User-Agent': user_agent, 'Accept':'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7'}
@@ -32,7 +32,7 @@ else:
 
 i = 1
 datas = []
-url_base = 'https://fortiguard.com/appcontrol?deepapp=&page='
+url_base = 'https://www.fortiguard.com/appcontrol?page='
 
 while pages + 1 > i:
     print('page:', i, '/', pages)

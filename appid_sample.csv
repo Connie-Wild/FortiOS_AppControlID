@@ -4388,6 +4388,12 @@
 52822,OSISoft.Asset.Framework
 52849,Google.Bard
 52867,FactoryTalk.ViewPoint
+53007,SECS.GEM_Time.To.Completion.Request
+53014,SECS.GEM_Cancel.All.Carrier.Out.Req
+53056,SECS.GEM_List.Enabled.Alarm.Request
+53073,SECS.GEM_Matl.Process.Matrix.Request
+53078,SECS.GEM_Current.Process.Program.Dir.Request
+53079,SECS.GEM_Process.Capabilities.Request
 25165827,TeamViewer
 25165828,TeamViewer
 41943041,Ares
