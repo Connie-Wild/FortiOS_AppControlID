@@ -1583,7 +1583,6 @@
 37738,XenServer.Update
 37763,JumboMail
 37845,SurfEasy.VPN
-37846,hubiC
 37952,Gawker
 37958,Hideman.VPN
 37985,Huffington.Post
@@ -1843,7 +1842,6 @@
 40317,LinkedIn_File.Upload
 40318,LinkedIn_File.Download
 40319,Foursquare_File.Upload
-40389,Ollehmusic
 40417,SSL_SSLv2
 40424,Genie
 40469,HTTP.BROWSER_Edge
@@ -4646,6 +4644,18 @@
 53336,Microsoft.Visual.Studio.Live.Share
 53340,Microsoft.Azure.DevOps.Services
 53352,Bing.Search_AI
+53446,BSAP
+53448,Beckhoff.AMS
+53454,Beckhoff.AMS_ADS.Read.Device.Info
+53455,Beckhoff.AMS_ADS.Read
+53456,Beckhoff.AMS_ADS.Write
+53457,Beckhoff.AMS_ADS.Read.State
+53458,Beckhoff.AMS_ADS.Write.Control
+53459,Beckhoff.AMS_ADS.Add.Device.Notification
+53460,Beckhoff.AMS_ADS.Delete.Device.Notification
+53461,Beckhoff.AMS_ADS.Device.Notification
+53462,Beckhoff.AMS_ADS.Read.Write
+53522,Xigua.Video
 25165827,TeamViewer
 25165828,TeamViewer
 41943041,Ares
