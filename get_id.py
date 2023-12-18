@@ -18,9 +18,10 @@ while True:
         get_url_info = s.get(url, headers=headers, timeout=5)
         get_url_info.raise_for_status()
         bs4Obj = BeautifulSoup(get_url_info.content, 'lxml')
-        result = bs4Obj.find('div', class_='sidebar-content')
-        appids = int(re.findall('[0-9]+', result.find('a').get_text().replace(',', ''))[0])
-        perPage = int(len(bs4Obj.find_all('div', class_='title')))
+        result = bs4Obj.find_all('div', class_='col-md-auto')
+        appids = int(re.findall('[0-9]+', result[2].find('p').get_text().replace(',', ''))[0])
+        result = bs4Obj.find('section', class_='table-body')
+        perPage = int(len(result.find_all('div', class_='row')))
         break
     except Exception as e:
         print(e)
@@ -36,6 +37,9 @@ i = 1
 datas = []
 url_base = 'https://www.fortiguard.com/appcontrol?page='
 
+# temp
+pages -= 1
+
 while pages + 1 > i:
     print('page:', i, '/', pages)
     url = url_base + str(i)
@@ -44,7 +48,8 @@ while pages + 1 > i:
         get_url_info = s.get(url, headers=headers, timeout=5)
         get_url_info.raise_for_status()
         bs4Obj = BeautifulSoup(get_url_info.content, 'lxml')
-        app_list = bs4Obj.find_all('div', class_='title')
+        result = bs4Obj.find('section', class_='table-body')
+        app_list = result.find_all('div', class_='row')
         if len(app_list) != perPage:
             if i == pages:
                 pass
@@ -56,8 +61,8 @@ while pages + 1 > i:
     j = 0
     while True:
         try:
-            app_name = str(app_list[j].find('a').get_text())
-            app_num = int(re.findall('[0-9]+', app_list[j].find('a').get('href'))[0])
+            app_name = str(app_list[j].find('div', class_='col-md-3').get_text()).split(' (')[0].replace('\n', '')
+            app_num = int(re.findall('[0-9]+', app_list[j].get('onclick'))[0])
             data = [app_num, app_name]
             datas.append(data)
             j += 1
