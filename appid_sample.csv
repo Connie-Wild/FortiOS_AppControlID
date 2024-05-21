@@ -6,6 +6,7 @@
 9,Kazaa
 10,Skype
 11,Winny
+10357,DNS_Zone.Transfer
 10854,Rediff.Messenger
 11203,Google.Talk
 11414,ICY
@@ -290,7 +291,6 @@
 16418,VRRP
 16419,Zwiki
 16420,YouTube_Video.Access
-16424,Pichat
 16425,Atom.Publishing.Protocol
 16431,Qianlong
 16434,PGM
@@ -475,7 +475,7 @@
 16938,Modbus
 16939,RTCP
 16940,Windows.Media.Player
-16941,IBM.Notes
+16941,HCL.Notes
 16942,RemotelyAnywhere
 16946,Taobao.Aliww
 16955,Cabos
@@ -592,7 +592,7 @@
 17850,Haiwangxing
 17896,Rakuten.Toolbar
 17901,Guild.Wars
-17917,IBM.Sametime
+17917,HCL.Sametime
 17945,Skyfire
 18007,Ultrasurf_9.6+
 18033,Pipi.Player
@@ -2233,7 +2233,7 @@
 43305,Google.Cloud.Platform_Dataflow
 43306,Google.Cloud.Platform_Dataproc
 43307,Google.Cloud.Platform_Pub.Sub
-43308,Google.Cloud.Platform_Cloud.Launcher
+43308,Google.Cloud.Marketplace
 43309,Google.Cloud.Platform_Endpoints
 43312,Google.Cloud.Platform_BigQuery
 43313,Google.Data.Saver
@@ -3571,7 +3571,6 @@
 48454,Arkoselabs.Captcha
 48568,Matrix.VPN
 48692,Disney+
-48788,HP.Printer
 48798,Autodesk.BIM360
 48800,Toutiao
 48801,Workplace_File.Download
@@ -3824,10 +3823,7 @@
 49459,Parallels.Access
 49540,Remotix
 49555,Among.Us
-49558,Google.Nest.Camera
-49567,Philips.Hue.Bridge
 49573,StarLeaf
-49581,Ring.Indoor.Cam
 49624,ROC
 49626,gRPC
 49631,MELSEC
@@ -3858,15 +3854,11 @@
 49748,TeamCity
 49751,SAP.SNC
 49753,PCCC
-49761,Wyze.Cam
 49779,Helios.Admin
-49789,Wemo.Mini
 49806,FortiCentral
 49809,SAP.HANA
 49819,Modbus.RTU_Func01.Read.Coils.Status
 49820,Modbus.RTU
-49824,Blink.Mini.Camera
-49825,Kasa.Smart.Light.Switch
 49830,Zoom_Meeting.Remote.Control
 49859,Vmware.Carbon.Black
 49860,Melon.VPN
@@ -5372,6 +5364,8 @@
 55564,Unseen.Online.Freedom.VPN
 55579,Atlassian.Cloud
 55600,Google.Vertex.AI
+55657,S7.Plus.Protocol_Start.CPU
+55658,S7.Plus.Protocol_Stop.CPU
 55660,DNP3_Unsol.Enable
 55661,DNP3_Unsol.Disable
 55662,DNP3_Class.Dump
@@ -5379,12 +5373,18 @@
 55664,DNP3_Direct.Operation-Status.Control
 55665,DNP3_Select.Before.Operation.Control
 55666,DNP3_Direct.Operation-Analog.Control
+55810,Claude
+55822,Meta.AI
+55895,VSCO
 25165827,TeamViewer
 25165828,TeamViewer
 41943041,Ares
 41943042,Ares
+101515287,DNS_Zone.Transfer
+101646591,DNS_Zone.Transfer
 101777525,Download.Accelerator.Plus
 101974125,Ares
+101974166,Rediff.Messenger
 101974177,Google.Talk
 101974178,Google.Talk
 101974182,Soulseek
