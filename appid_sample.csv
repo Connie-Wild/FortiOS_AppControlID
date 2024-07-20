@@ -5377,6 +5377,7 @@
 56016,Proton.VPN
 56053,PotatoVPN
 56054,Sumo.Logic
+56118,Octohide.VPN
 56156,Fanuc.FOCAS
 56157,Fanuc.FOCAS_Read.Param
 56158,Fanuc.FOCAS_Read.Macro
@@ -5411,6 +5412,7 @@
 56189,Fanuc.FOCAS_Read.Directory.Entry.Count
 56190,Fanuc.FOCAS_Read.Main.Program.Name
 56191,Fanuc.FOCAS_Read.PMC
+56200,uniFLOW_CanonMEAP
 24969218,MySpace_IM
 25165825,iTunes_File.Sharing
 25165826,iTunes_File.Sharing
@@ -5520,7 +5522,6 @@
 111084096,Google.Talk
 111084097,Google.Talk
 111084152,Google.Talk
-111084153,Google.Talk
 152305666,Sun.RPC_Program.Number
 152305667,MS.RPC_UUID
 152305668,HTTP.Method
@@ -5536,5 +5537,4 @@
 152305678,RTSP_Method
 286064665,DNS_Dynamic.Update
 286195744,Google.Talk
-286195746,Google.Talk
 287113238,Google.Talk_Gmail.Chat
