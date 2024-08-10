@@ -394,7 +394,6 @@
 16663,CORBA
 16664,Bing.Maps
 16665,BOINC
-16666,ConcourseSuite
 16667,RTP
 16669,TrendMicro.Update
 16670,MGCP
@@ -5222,7 +5221,6 @@
 54481,WeCom.Picture.Download
 54482,WeCom.Video.Upload
 54483,WeCom.Video.Download
-54484,WeChat_LargeFile.Upload
 54485,WeChat_LargeFile.Download
 54494,Ewon.M2web
 54498,Inductive.Automation.Ignition.Gateway
@@ -5365,6 +5363,7 @@
 55664,DNP3_Direct.Operation-Status.Control
 55665,DNP3_Select.Before.Operation.Control
 55666,DNP3_Direct.Operation-Analog.Control
+55706,DeepL
 55756,YouTube_Music
 55810,Claude
 55822,Meta.AI
@@ -5412,6 +5411,7 @@
 56190,Fanuc.FOCAS_Read.Main.Program.Name
 56191,Fanuc.FOCAS_Read.PMC
 56200,uniFLOW_CanonMEAP
+56203,BeePass.VPN
 56204,Google.Gemini_Delete
 56208,Google.Gemini_Modify.Response
 56211,NLP.Cloud_Post
@@ -5448,8 +5448,11 @@
 56262,Lightning.AI_Delete.File
 56263,Lightning.AI_File.Download
 56272,Google.Cloud.Storage_File.Upload
+56274,CODESYS
 56275,Google.Vertex.AI_Post
 56276,Codeium
+56346,Replicate
+56372,Replicate_File.Upload
 24969218,MySpace_IM
 25165825,iTunes_File.Sharing
 25165826,iTunes_File.Sharing
@@ -5542,7 +5545,6 @@
 108855300,QQ
 108855301,Google.Talk
 108855302,MSN.Messenger.File.Transfer
-108855304,Google.Talk
 108855305,MSN.Messenger_Web
 108855306,MSN.Messenger_Web
 108855307,MSN.Messenger_Web
@@ -5560,7 +5562,6 @@
 111084096,Google.Talk
 111084097,Google.Talk
 111084152,Google.Talk
-111084153,Google.Talk
 152305666,Sun.RPC_Program.Number
 152305667,MS.RPC_UUID
 152305668,HTTP.Method
@@ -5576,5 +5577,4 @@
 152305678,RTSP_Method
 286064665,DNS_Dynamic.Update
 286195744,Google.Talk
-286195746,Google.Talk
 287113238,Google.Talk_Gmail.Chat
