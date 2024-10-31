@@ -37,9 +37,6 @@ i = 1
 datas = []
 url_base = 'https://www.fortiguard.com/appcontrol?page='
 
-# temp
-pages -= 1
-
 while pages + 1 > i:
     print('page:', i, '/', pages)
     url = url_base + str(i)

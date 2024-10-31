@@ -8,6 +8,9 @@
 9,Kazaa
 10,Skype
 11,Winny
+10357,DNS_Zone.Transfer
+10854,Rediff.Messenger
+11203,Google.Talk
 11414,ICY
 11421,Soulseek
 11726,PacketiX
@@ -78,7 +81,6 @@
 16018,FastMail
 16025,SquirrelMail
 16027,RTMPT
-16029,VideosHub
 16031,Jabber
 16035,Google.Analytics
 16040,Deezer
@@ -378,7 +380,7 @@
 16638,Discard
 16642,SNMP_Trap
 16643,InstallAnywhere.Update
-16646,Clearspace
+16646,Jive.Software
 16647,H.245
 16648,Kaspersky.Update
 16649,H.225.0.Call.Setup
@@ -1382,7 +1384,7 @@
 36233,Naver.Mybox_Upload
 36237,KBS.Mail
 36238,Zoho_Projects
-36241,Zoho.Assist
+36241,Zoho_Assist
 36249,Google.Keep
 36302,ElephantDrive
 36313,Dropbox.Lan.Sync.Discovery.Protocol
@@ -1487,6 +1489,7 @@
 37306,Naver.Line_Call
 37323,ownCloud
 37332,Sap.Afaria
+37359,New.Relic
 37364,Forward
 37371,WhatsApp_File.Transfer
 37382,RHUB
@@ -3793,6 +3796,7 @@
 49459,Parallels.Access
 49540,Remotix
 49555,Among.Us
+49561,Apple.TV_Media.Player
 49573,StarLeaf
 49624,ROC
 49626,gRPC
@@ -5574,6 +5578,12 @@
 56531,Amazon.AWS_Titan.Embedding
 56582,Kuaishou
 56597,Global.Socket
+56684,OpenAI.ChatGPT_File.Upload
+56688,SSL_TLSv1.3.PQC
+56753,Dynatrace
+56756,Hanwha.Vision.Wisenet.NVR
+56776,ABB.Controller.SysCmd
+56778,S7.Protocol_Write.Variable.Validation
 24969218,MySpace_IM
 25165825,iTunes_File.Sharing
 25165826,iTunes_File.Sharing
@@ -5581,11 +5591,15 @@
 25165828,TeamViewer
 41943041,Ares
 41943042,Ares
+101515287,DNS_Zone.Transfer
 101580890,Ebay
+101646591,DNS_Zone.Transfer
 101777525,Download.Accelerator.Plus
 101974082,Kazaa_GET
 101974125,Ares
+101974166,Rediff.Messenger
 101974177,Google.Talk
+101974178,Google.Talk
 101974180,MSN.Messenger_Web
 101974181,MSN.Messenger_Web
 101974182,Soulseek
@@ -5666,6 +5680,8 @@
 108855300,QQ
 108855301,Google.Talk
 108855302,MSN.Messenger.File.Transfer
+108855303,Google.Talk
+108855304,Google.Talk
 108855305,MSN.Messenger_Web
 108855306,MSN.Messenger_Web
 108855307,MSN.Messenger_Web
@@ -5678,10 +5694,19 @@
 109051911,Winny
 109051912,Ultrasurf
 111084066,Google.Talk
+111084067,Google.Talk
+111084068,Google.Talk
+111084069,Google.Talk
+111084070,Google.Talk
+111084071,Google.Talk
 111084090,Kazaa_GET
 111084091,Kazaa_GET
 111084096,Google.Talk
 111084097,Google.Talk
+111084152,Google.Talk
+111084153,Google.Talk
+111084196,Google.Talk
+111084227,DNS_Zone.Transfer
 152305666,Sun.RPC_Program.Number
 152305667,MS.RPC_UUID
 152305668,HTTP.Method
@@ -5697,4 +5722,5 @@
 152305678,RTSP_Method
 286064665,DNS_Dynamic.Update
 286195744,Google.Talk
+286195746,Google.Talk
 287113238,Google.Talk_Gmail.Chat
