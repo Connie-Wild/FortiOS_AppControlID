@@ -1060,7 +1060,6 @@
 32171,Tapatalk
 32242,Rambler.Mail
 32246,Realtor.Com
-32257,Adobe.Connect_Meeting.Remote.Control
 32259,Combat.Arms
 32261,Yandex.Search_Image
 32262,Yandex.Search_Video
@@ -3475,7 +3474,6 @@
 48962,RealPort
 48964,BigBlueButton
 48970,Amazon.Chime
-48981,Google.Meet_Post
 48983,Google.Meet
 48989,YouTube_Channel.Control
 48992,TriStation
@@ -5702,6 +5700,7 @@
 57650,Phot.AI
 57651,Phot.AI_Login
 57654,Phot.AI_Post
+57656,Phot.AI_File.Upload
 57657,SkyworkAI.Linky
 57658,PopAi
 57659,PopAi_Login
@@ -5797,6 +5796,7 @@
 57796,Reclaim.Ai
 57797,Reclaim.Ai_Login
 57798,Reclaim.Ai_Create.Tasks
+57801,Reclaim.Ai_Create.Habits
 57803,Raw.Shorts
 57804,Raw.Shorts_Login
 57806,Raw.Shorts_Post
@@ -5897,7 +5897,9 @@
 58037,Quickchat.AI
 58038,Quickchat.AI_Login
 58041,VanceAI_Login
+58043,Quickchat.AI_Create.AI.Agent
 58044,VanceAI_File.Upload
+58045,Quickchat.AI_Chat
 58046,Gling.AI
 58047,Gling.AI_Transcribe
 58048,Gling.AI_Video.Upload
@@ -6399,6 +6401,7 @@
 59315,Mistral.AI.Le.Chat_Chat
 59316,Mistral.AI.Le.Chat_File.Upload
 59346,AIContentfy
+59347,TLS.Tunnel.VPN
 59363,AIContentfy_Login
 59369,Mistral.AI.API
 59370,Mistral.AI.API_Post
@@ -6407,10 +6410,26 @@
 59398,Weights.and.Biases.MLOps_Login
 59424,Weights.and.Biases.MLOps_Prompt
 59427,AIContentfy_Project
+59435,JumpJumpVPN
 59437,Soundful
 59438,Soundful_Login
 59439,Soundful_Post
 59440,AIContentfy_Post
+59501,CSA.Matter_mDNS.Node.Pair
+59524,Level.RMM
+59525,Google.Antigravity
+59539,Trimble.SketchUp
+59557,Google.Antigravity_Login
+59600,Google.Antigravity_Chat
+59627,Spacely.AI
+59628,Spacely.AI_Login
+59708,MELSOFT
+59709,CIP_Change.Controller.to.Program.Mode
+59711,CIP_Change.Controller.to.Run.Mode
+59712,Panabee.Hotpot
+59713,Panabee.Hotpot_Login
+59714,Panabee.Hotpot_Prompt
+59715,Panabee.Hotpot_File.Upload
 25165827,TeamViewer
 25165828,TeamViewer
 41943041,Ares
