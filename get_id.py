@@ -6,9 +6,9 @@ from bs4 import BeautifulSoup
 
 s = requests.Session()
 
-url = 'https://www.fortiguard.com/appcontrol'
+url = 'https://fortiguard.fortinet.com/appcontrol'
 
-user_agent = 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36'
+user_agent = 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36'
 headers = {
   'User-Agent': user_agent
 }
@@ -35,7 +35,7 @@ else:
 
 i = 1
 datas = []
-url_base = 'https://www.fortiguard.com/appcontrol?page='
+url_base = 'https://fortiguard.fortinet.com/appcontrol?page='
 
 while pages + 1 > i:
   print('page:', i, '/', pages)
@@ -47,6 +47,7 @@ while pages + 1 > i:
     bs4Obj = BeautifulSoup(get_url_info.content, 'lxml')
     result = bs4Obj.find('section', class_='table-body')
     app_list = result.find_all('div', class_='row')
+    app_nums = dict(re.findall(r"getElementById\('([^']+)'\).*?'/appcontrol/(\d+)'", get_url_info.text))
     if len(app_list) != perPage:
       if i == pages:
         pass
@@ -59,7 +60,7 @@ while pages + 1 > i:
   while True:
     try:
       app_name = str(app_list[j].find('div', class_='col-md-3').get_text()).split(' (')[0].replace('\n', '')
-      app_num = int(re.findall('[0-9]+', app_list[j].get('onclick'))[0])
+      app_num = int(app_nums[app_list[j].get('id')])
       data = [app_num, app_name]
       datas.append(data)
       j += 1
